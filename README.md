@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-     💵 <a href="#" alt="site do ecoleta"> Go-finance </a>
+     💵 <a href="#" alt="site do ecoleta"> Go-finances </a>
 </h1>
 
 <h3 align="center">
