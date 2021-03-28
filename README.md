@@ -77,6 +77,14 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 #### 🎲 Rodando o Backend (servidor)
 
 ```bash
+# Crie uma imagem do postgress com esse nome e essa porta:
+$ sudo docker run --name gostack_desafio06_tests -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -d postgres
+
+# Execute o docker
+$ sudo docker start gostack_desafio06_tests
+
+# Rode as migrations
+$ yarn typeorm migration:run
 
 # Clone este repositório
 $ git@github.com:viniciusfal/cash-machine.git
