@@ -169,5 +169,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/vinicius-dev-silva/)
+Feito com ❤️ por Vinicius Silva and RocketSeat 👋🏽 [Entre em contato!](https://www.linkedin.com/in/vinicius-dev-silva/)
 
