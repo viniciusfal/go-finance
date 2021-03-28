@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-     💵 <a href="#" alt="site do ecoleta"> Go-finances </a>
+     💰 <a href="#" alt="site do ecoleta"> Go-finances </a>
 </h1>
 
 <h3 align="center">
@@ -71,7 +71,7 @@ Este projeto é divido em dois repositórios:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/),[Docker](https://nodejs.org/en/https://www.docker.com/)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲 Rodando o Backend (servidor)
