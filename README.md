@@ -53,9 +53,9 @@ Projeto desenvolvido durante a **Bootcamp-GoStack** oferecida pela [Rocketseat](
 
 
 
-<p >
-  <img width="440px" alt="Made by tgmarinho" src="src/assets/go-finance1.png">
-  <img width="400px"  alt="Made by tgmarinho" src="src/assets/go-finance2.png">
+<p align="center">
+  <img width="400px" alt="Made by tgmarinho" src="src/assets/go-finance1.png">
+  <img width="360px"  alt="Made by tgmarinho" src="src/assets/go-finance2.png">
 </p>
 
 ---
