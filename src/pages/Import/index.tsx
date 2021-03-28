@@ -11,7 +11,6 @@ import { Container, Title, ImportFileContainer, Footer } from './styles';
 
 import alert from '../../assets/alert.svg';
 import api from '../../services/api';
-import fileSize from 'filesize';
 
 interface FileProps {
   file: File;
@@ -24,15 +23,15 @@ const Import: React.FC = () => {
   const history = useHistory();
 
   async function handleUpload(): Promise<void> {
-    if(!uploadedFiles.length) return
-   const data = new FormData();
+    if (!uploadedFiles.length) return;
+    const data = new FormData();
 
-   const uploadSingle = uploadedFiles[0]
-  data.append('file', uploadSingle.file, uploadSingle.name)
+    const uploadSingle = uploadedFiles[0];
+    data.append('file', uploadSingle.file, uploadSingle.name);
 
     try {
-       await api.post('/transactions/import', data);
-       history.push('/');
+      await api.post('/transactions/import', data);
+      history.push('/');
     } catch (err) {
       console.log(err.response.error);
     }
@@ -42,9 +41,8 @@ const Import: React.FC = () => {
     const uploadedFile = files.map(file => ({
       file,
       name: file.name,
-      readableSize: filesize(file.size)
-    }))
-
+      readableSize: filesize(file.size),
+    }));
 
     setUploadedFiles(uploadedFile);
   }
